@@ -1,0 +1,30 @@
+name = "lelouch-bot"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+# ─── Configuration ───
+[vars]
+OWNER_ID = "7099729191"
+SHORT_URL = "arolinks.com"
+AUTO_DEL = "600"
+PROTECT_CONTENT = "false"
+DISABLE_BTN = "true"
+BOT_TOKEN = "8074534092"
+# MONGODB_URI = "..."  # Removed
+
+WEBHOOK_SECRET = "a8b1f787a9a07e9b3b1d8551aaf3c57b6f31f1e4fd19d7e5c7964f553d8adf80" # generate random webhook secret from https://generate-random.org/webhook-secrets
+
+# ─── Cloudflare D1 ───
+[[d1_databases]]
+binding = "DB"
+database_name = "lelouch-db"
+database_id = ""
+SESSION_NAME = "bot 1"
+ADMINS = "7099729191,8304839512"
+DB_CHANNEL = "-1003130237381"
+SHORT_API = ""
+
+# ─── Cron Triggers for auto-delete & broadcast processing ───
+[triggers]
+crons = ["* * * * *"]
