@@ -1,0 +1,18 @@
+{
+  "name": "lelouch-bot",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^3.93.0"
+  },
+  "dependencies": {
+    "mongodb": "^7.1.1"
+  }
+}
