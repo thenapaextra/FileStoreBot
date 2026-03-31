@@ -296,7 +296,7 @@ A: Use the `/reset` command as the owner. This only drops the `bot_settings` col
 <h3>「 ᴏᴛʜᴇʀ ʙʀᴀɴᴄʜᴇs 」
 </h3>
 
-- <b>[sʜᴏʀᴛɴᴇʀ](https://github.com/TypeAbdullah/FileStoreBot/tree/shortner)
+- <b>[ᴡᴏʀᴋᴇʀ](https://github.com/thenapaextra/FileStoreBot/tree/worker)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
